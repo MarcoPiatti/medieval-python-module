@@ -49,7 +49,7 @@ def validate():
 
 
 # Se retorna una lista de resultados, cada resultado tiene un nombre/titulo, un mensaje/descripción del resultado, y un booleano indicando el resultado. 
-# Esta función debería ser modificada con la lógica interna del módulo, respetando el formato del resultado.
+# Esta función debería ser modificada agregando la lógica interna del módulo, respetando el formato del resultado.
 def analyzeFiles(files):
     return [
         {
