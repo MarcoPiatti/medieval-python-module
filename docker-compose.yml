@@ -1,0 +1,11 @@
+services:
+  nombre-del-modulo:
+    image: gibio/medieval:nombre-del-modulo-X.Y.Z
+    ports:
+      - "8080:8080"
+    networks:
+      - medieval_default
+
+networks:
+  medieval_default:
+    external: true
